@@ -355,15 +355,39 @@ This project successfully implemented and verified a 32-bit RV32I single-cycle p
 * Expand coverage
 * Extend verification toward a pipelined RV32I implementation
 
+ Verification environment (generator, driver, monitor, scoreboard,
+ coverage, assertions, regression): based on[Happy251005/rv32i-systemverilog-verification](https://github.com/Happy251005/rv32i-systemverilog-verification).
+ RTL (`rtl/`): from [original repo name and link], unmodified.
+My work: Vivado project setup, running the directed and 10-seed
+  regression, waveform analysis and explanations for each test case
+  (ADDI, ADD, SW, LW, BEQ), and the documentation in this README.
+
+
+
+## Credits and Attribution
+
+**Sources**
+- Verification environment (generator, driver, monitor, scoreboard, coverage,
+  assertions, regression): based on
+  [Happy251005/rv32i-systemverilog-verification](https://github.com/Happy251005/rv32i-systemverilog-verification).
+- RTL design (`rtl/`): taken unmodified from
+  [ORIGINAL-RTL-REPO-NAME](ORIGINAL-RTL-REPO-LINK).
+
+**My contribution**
+- Set up the Vivado project and ran the simulation in Vivado XSim.
+- Ran the directed regression and the 10-seed constrained-random regression
+  and captured the results.
+- Analysed the waveforms and wrote the explanation for each test case
+  (ADDI, ADD, SW, LW, BEQ).
+- Wrote the documentation in this README.
+
 ## Author
 
-**Divy Thakkar**
-
-Electronics & Communication Engineering  
-Nirma University
-
+Divy Thakkar, Electronics & Communication Engineering, Nirma University
 [GitHub](https://github.com/divythakkar2088)
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+My documentation, waveform screenshots and analysis are licensed under the
+MIT License (see [LICENSE](LICENSE)). Files from the sources above remain
+under their original authors' terms.
