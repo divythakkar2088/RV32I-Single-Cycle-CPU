@@ -370,8 +370,9 @@ My work: Vivado project setup, running the directed and 10-seed
 - Verification environment (generator, driver, monitor, scoreboard, coverage,
   assertions, regression): based on
   [Happy251005/rv32i-systemverilog-verification](https://github.com/Happy251005/rv32i-systemverilog-verification).
-- RTL design (`rtl/`): taken unmodified from
-  [ORIGINAL-RTL-REPO-NAME](ORIGINAL-RTL-REPO-LINK).
+- RTL design (`rtl/`): unmodified single-cycle RISC-V design bundled in the
+  repository above, whose README credits the original design as
+  "Single-cycle-RISC-V-in-verilog".
 
 **My contribution**
 - Set up the Vivado project and ran the simulation in Vivado XSim.
