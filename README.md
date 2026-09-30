@@ -363,32 +363,28 @@ My work: Vivado project setup, running the directed and 10-seed
   (ADDI, ADD, SW, LW, BEQ), and the documentation in this README.
 
 
-
 ## Credits and Attribution
 
-**Sources**
-- Verification environment (generator, driver, monitor, scoreboard, coverage,
-  assertions, regression): based on
-  [Happy251005/rv32i-systemverilog-verification](https://github.com/Happy251005/rv32i-systemverilog-verification).
-- RTL design (`rtl/`): unmodified single-cycle RISC-V design bundled in the
-  repository above, whose README credits the original design as
-  "Single-cycle-RISC-V-in-verilog".
+### Sources
 
-**My contribution**
-- Set up the Vivado project and ran the simulation in Vivado XSim.
-- Ran the directed regression and the 10-seed constrained-random regression
-  and captured the results.
-- Analysed the waveforms and wrote the explanation for each test case
-  (ADDI, ADD, SW, LW, BEQ).
-- Wrote the documentation in this README.
+- Verification environment (generator, driver, monitor, scoreboard, coverage, assertions, regression): based on [Happy251005/rv32i-systemverilog-verification](https://github.com/Happy251005/rv32i-systemverilog-verification).
+- RTL design (`rtl/`): unmodified single-cycle RISC-V design bundled in the repository above, whose README credits the original design as "Single-cycle-RISC-V-in-verilog".
+
+### My Contribution
+
+- Set up and integrated the project in AMD Xilinx Vivado and verified the complete testbench using Vivado XSim.
+- Studied and worked through the SystemVerilog verification architecture, including transactions, constrained-random stimulus, generator-driver communication, monitoring, scoreboard-based checking, SVA assertions, regression and functional coverage.
+- Ran the directed regression and 10-seed constrained-random regression covering 300 random instructions.
+- Analysed and validated ADDI, ADD, SW, LW and BEQ behavior using simulation waveforms.
+- Documented the verification architecture, test methodology, waveform analysis and regression results.
+
+AI tools were used as development and learning assistance for understanding SystemVerilog concepts, debugging, and documentation.
 
 ## Author
 
-Divy Thakkar, Electronics & Communication Engineering, Nirma University
+Divy Thakkar, Electronics & Communication Engineering, Nirma University  
 [GitHub](https://github.com/divythakkar2088)
 
 ## License
 
-My documentation, waveform screenshots and analysis are licensed under the
-MIT License (see [LICENSE](LICENSE)). Files from the sources above remain
-under their original authors' terms.
+My documentation, waveform screenshots and analysis are licensed under the MIT License (see [LICENSE](https://github.com/divythakkar2088/RV32I-Single-Cycle-CPU/blob/main/LICENSE)). Files from the sources above remain under their original authors' terms.
