@@ -378,7 +378,6 @@ My work: Vivado project setup, running the directed and 10-seed
 - Analysed and validated ADDI, ADD, SW, LW and BEQ behavior using simulation waveforms.
 - Documented the verification architecture, test methodology, waveform analysis and regression results.
 
-AI tools were used as development and learning assistance for understanding SystemVerilog concepts, debugging, and documentation.
 
 ## Author
 
