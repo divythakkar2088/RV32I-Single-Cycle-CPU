@@ -354,3 +354,16 @@ This project successfully implemented and verified a 32-bit RV32I single-cycle p
 * Increase regression seeds/instruction count
 * Expand coverage
 * Extend verification toward a pipelined RV32I implementation
+
+## Author
+
+**Divy Thakkar**
+
+Electronics & Communication Engineering  
+Nirma University
+
+[GitHub](https://github.com/divythakkar2088)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
