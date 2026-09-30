@@ -1,0 +1,11 @@
+*.jou
+*.log
+*.str
+*.dmp
+*.os
+.Xil/
+RV32I_SingleCycle.cache/
+RV32I_SingleCycle.hw/
+RV32I_SingleCycle.ip_user_files/
+RV32I_SingleCycle.sim/
+*.bit
